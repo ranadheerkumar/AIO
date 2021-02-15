@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Test Suite</th></tr>
+<tr><td><a href="#t0">User Tests</a></td><td class="num">4</td><td class="num attn">2</td><td class="num attn">4</td><td class="num">250</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">User Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.test.Test1</td><td><a href="#m0">example1</a></td><td rowspan="1">1613353708733</td><td rowspan="1">71</td></tr><tr class="failedeven"><td><a href="#m1">example4</a></td><td rowspan="1">1613353708925</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="2">com.test.Test2</td><td><a href="#m2">test1</a></td><td rowspan="1">1613353708932</td><td rowspan="1">1</td></tr><tr class="failedodd"><td><a href="#m3">test4</a></td><td rowspan="1">1613353708939</td><td rowspan="1">1</td></tr><tr><th colspan="4">User Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.test.Test1</td><td><a href="#m4">skippedByDependencyTest</a></td><td rowspan="1">1613353708930</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.test.Test2</td><td><a href="#m5">skippedByDependencyTest</a></td><td rowspan="1">1613353708942</td><td rowspan="1">0</td></tr><tr><th colspan="4">User Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.test.Test1</td><td><a href="#m6">example2</a></td><td rowspan="1">1613353708919</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m7">example3</a></td><td rowspan="1">1613353708923</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">com.test.Test2</td><td><a href="#m8">test2</a></td><td rowspan="1">1613353708934</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m9">test3</a></td><td rowspan="1">1613353708936</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>User Tests</h2><h3 id="m0">com.test.Test1#example1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: This test should be failed expected [3] but found [2]
+	at com.test.Test1.example1(Test1.java:14)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.Test1#example4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: This test should be failed
+	at com.test.Test1.example4(Test1.java:29)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.Test2#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [3] but found [2]
+	at com.test.Test2.test1(Test2.java:14)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.Test2#test4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: This test should be failed
+	at com.test.Test2.test4(Test2.java:29)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.Test1#skippedByDependencyTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Test1.skippedByDependencyTest()[pri:0, instance:com.test.Test1@60957c0f] depends on not successfully finished methods
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.Test2#skippedByDependencyTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Test2.skippedByDependencyTest()[pri:0, instance:com.test.Test2@293a5f75] depends on not successfully finished methods
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.Test1#example2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test.Test1#example3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test.Test2#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.test.Test2#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
