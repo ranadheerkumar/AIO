@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.Test3">
         <methods>
-          <include name="command"/>
+          <include name="main"/>
         </methods>
       </class> <!-- com.test.Test3 -->
     </classes>
