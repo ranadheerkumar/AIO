@@ -1,0 +1,54 @@
+{
+  "uid" : "8ee755e9b9d80386",
+  "name" : "test2",
+  "fullName" : "com.test.Test2.test2",
+  "historyId" : "4dd0d110bb05350edea1d7950de232e7",
+  "time" : {
+    "start" : 1613293094557,
+    "stop" : 1613293094557,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UOOK2F9"
+  }, {
+    "name" : "thread",
+    "value" : "22640@DESKTOP-UOOK2F9.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ee755e9b9d80386.json",
+  "parameterValues" : [ ]
+}

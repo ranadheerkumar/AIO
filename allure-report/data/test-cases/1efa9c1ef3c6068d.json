@@ -1,0 +1,54 @@
+{
+  "uid" : "1efa9c1ef3c6068d",
+  "name" : "example2",
+  "fullName" : "com.test.Test1.example2",
+  "historyId" : "4a3850da3c0482db9cbdd9d888d02244",
+  "time" : {
+    "start" : 1613353517054,
+    "stop" : 1613353517055,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "example2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.Test1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UOOK2F9"
+  }, {
+    "name" : "thread",
+    "value" : "20416@DESKTOP-UOOK2F9.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1efa9c1ef3c6068d.json",
+  "parameterValues" : [ ]
+}

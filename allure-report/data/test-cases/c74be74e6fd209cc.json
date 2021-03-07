@@ -1,0 +1,152 @@
+{
+  "uid" : "c74be74e6fd209cc",
+  "name" : "test4",
+  "fullName" : "com.test.Test2.test4",
+  "historyId" : "eeff00f09bf75451a340b33873ef8d0b",
+  "time" : {
+    "start" : 1615064149609,
+    "stop" : 1615064149610,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "This test should be failed",
+  "statusTrace" : "java.lang.AssertionError: This test should be failed\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat com.test.Test2.test4(Test2.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.Test2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UOOK2F9"
+  }, {
+    "name" : "thread",
+    "value" : "20340@DESKTOP-UOOK2F9.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95eaec8c1b52a455",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613364175611,
+        "stop" : 1613364175611,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eae11fbf29b75923",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613353708940,
+        "stop" : 1613353708941,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c1beabf638527d31",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351935170,
+        "stop" : 1613351935171,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c5f9c5369bd4912e",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351563882,
+        "stop" : 1613351563883,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f0c0344db0656267",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351441592,
+        "stop" : 1613351441592,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7fb115422530c16",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351419648,
+        "stop" : 1613351419649,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2c086b01d0d2f4df",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351356604,
+        "stop" : 1613351356605,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c0a7d4bf86f656e9",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351347197,
+        "stop" : 1613351347198,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "aef91c3e3834ac21",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613351283160,
+        "stop" : 1613351283161,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ccb47ef4c1ed401c",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1613293094562,
+        "stop" : 1613293094563,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c74be74e6fd209cc.json",
+  "parameterValues" : [ ]
+}

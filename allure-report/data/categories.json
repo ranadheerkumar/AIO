@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\nCannot inject @Test annotated Method [command] with [class [Ljava.lang.String;].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "children" : [ {
+        "name" : "command",
+        "uid" : "3ddc47060566018a",
+        "parentUid" : "4d89175cebb4d961ce3938b61e8da5d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613353872194,
+          "stop" : 1613353872198,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d89175cebb4d961ce3938b61e8da5d4"
+    }, {
+      "name" : "\nCannot inject @Test annotated Method [main] with [class [Ljava.lang.String;].\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "children" : [ {
+        "name" : "main",
+        "uid" : "349e39723d8cc902",
+        "parentUid" : "dc219e558e2a4a9f6dd84dcb57869554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615064149618,
+          "stop" : 1615064149619,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc219e558e2a4a9f6dd84dcb57869554"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "This test should be failed expected [3] but found [2]",
+      "children" : [ {
+        "name" : "example1",
+        "uid" : "b1e8d7cc2f0093f4",
+        "parentUid" : "b16b6b396df344cbd0845cd8ab89f6b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615064149445,
+          "stop" : 1615064149476,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b16b6b396df344cbd0845cd8ab89f6b6"
+    }, {
+      "name" : "This test should be failed",
+      "children" : [ {
+        "name" : "example4",
+        "uid" : "a96daa35ec417111",
+        "parentUid" : "6d0c06c5e056172e64fa7eef8658e326",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615064149592,
+          "stop" : 1615064149593,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test4",
+        "uid" : "c74be74e6fd209cc",
+        "parentUid" : "6d0c06c5e056172e64fa7eef8658e326",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615064149609,
+          "stop" : 1615064149610,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d0c06c5e056172e64fa7eef8658e326"
+    }, {
+      "name" : "expected [3] but found [2]",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "44f19a01dec9ca9",
+        "parentUid" : "03867159497df799815614afa1316337",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615064149601,
+          "stop" : 1615064149601,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03867159497df799815614afa1316337"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -6,8 +6,8 @@
 	<artifactId>AIO</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<jre.level>1.8</jre.level>
-		<jdk.level>1.8</jdk.level>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<aspectj.version>1.9.2</aspectj.version>
 	</properties>
 
@@ -34,7 +34,7 @@
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 				<dependencies>

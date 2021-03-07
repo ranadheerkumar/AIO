@@ -1,0 +1,238 @@
+{
+  "379e035dca005d0609eb96c721724650" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3afa9539012c5af2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615064149606,
+        "stop" : 1615064149606,
+        "duration" : 0
+      }
+    } ]
+  },
+  "eeff00f09bf75451a340b33873ef8d0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c74be74e6fd209cc",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1615064149609,
+        "stop" : 1615064149610,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fb68373c674d797557e48defbb8b1515" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ddc47060566018a",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [command] with [class [Ljava.lang.String;].\nFor more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1613353872194,
+        "stop" : 1613353872198,
+        "duration" : 4
+      }
+    } ]
+  },
+  "4a3850da3c0482db9cbdd9d888d02244" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a08a35d26e95234c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615064149585,
+        "stop" : 1615064149585,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c62636224e610df013ceb880265d6af6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a96daa35ec417111",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1615064149592,
+        "stop" : 1615064149593,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4dd0d110bb05350edea1d7950de232e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6055d64d61d18cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615064149604,
+        "stop" : 1615064149604,
+        "duration" : 0
+      }
+    } ]
+  },
+  "452374df062d73443286879809b73ca0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d789bf03f804bb",
+      "status" : "skipped",
+      "statusDetails" : "Method Test1.skippedByDependencyTest()[pri:0, instance:com.test.Test1@35a9782c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1615064149597,
+        "stop" : 1615064149598,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b42df033281b7899b45c2e06733211ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "349e39723d8cc902",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [main] with [class [Ljava.lang.String;].\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1615064149618,
+        "stop" : 1615064149619,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f1109d6693f7bedcb9decf6eefc64e68" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1e8d7cc2f0093f4",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed expected [3] but found [2]",
+      "time" : {
+        "start" : 1615064149445,
+        "stop" : 1615064149476,
+        "duration" : 31
+      }
+    } ]
+  },
+  "47ac2917cdea36d0db82aa07eb2fc843" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c31045e106bc69f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615064149589,
+        "stop" : 1615064149589,
+        "duration" : 0
+      }
+    } ]
+  },
+  "51d23c2c31e215e989fe9dc7e92969a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2cf02d9326d06ca",
+      "status" : "skipped",
+      "statusDetails" : "Method Test2.skippedByDependencyTest()[pri:0, instance:com.test.Test2@70a36a66] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1615064149613,
+        "stop" : 1615064149613,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d9830c2d9845f155e8c01ed3342533ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44f19a01dec9ca9",
+      "status" : "failed",
+      "statusDetails" : "expected [3] but found [2]",
+      "time" : {
+        "start" : 1615064149601,
+        "stop" : 1615064149601,
+        "duration" : 0
+      }
+    } ]
+  }
+}
