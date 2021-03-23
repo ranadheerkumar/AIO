@@ -108,7 +108,7 @@ public class WriteExcel {
 
         //Create an array with the data in the same order in which you expect to be filled in excel file
 
-        String[] valueToWrite = {"Mr. E","Noida"};
+        String[] valueToWrite = {"Mr. E","Ravi garu"};
 
         //Create an object of current class
 

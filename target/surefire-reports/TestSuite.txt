@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 2.146 sec <<< FAILURE! - in TestSuite
-example1(com.test.Test1)  Time elapsed: 0.126 sec  <<< FAILURE!
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 2.462 sec <<< FAILURE! - in TestSuite
+example1(com.test.Test1)  Time elapsed: 0.154 sec  <<< FAILURE!
 java.lang.AssertionError: This test should be failed expected [3] but found [2]
 	at com.test.Test1.example1(Test1.java:14)
 
-example4(com.test.Test1)  Time elapsed: 0.002 sec  <<< FAILURE!
+example4(com.test.Test1)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: This test should be failed
 	at com.test.Test1.example4(Test1.java:29)
 
@@ -18,7 +18,7 @@ test4(com.test.Test2)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: This test should be failed
 	at com.test.Test2.test4(Test2.java:29)
 
-main(com.test.Test3)  Time elapsed: 0.014 sec  <<< FAILURE!
+main(com.test.Test3)  Time elapsed: 0.072 sec  <<< FAILURE!
 org.testng.TestNGException: 
 
 Cannot inject @Test annotated Method [main] with [class [Ljava.lang.String;].

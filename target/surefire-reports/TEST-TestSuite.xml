@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.146" tests="11" errors="0" skipped="2" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.462" tests="11" errors="0" skipped="2" failures="5">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -33,24 +33,24 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\ranad\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/18/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/27/display/redirect?page=changes"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="12"/>
-    <property name="BUILD_TAG" value="jenkins-Alure-Reporting-18"/>
+    <property name="BUILD_TAG" value="jenkins-Alure-Reporting-27"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.3 C:\Users\ranad\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\ranad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ranad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58233"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.3 C:\Users\ranad\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\ranad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ranad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58451"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="d95ed99e7b354133"/>
     <property name="=D:" value="D:\Eclipse_Development"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Seagate\VirtualFile\;C:\Program Files (x86)\Common Files\Seagate\VirtualFile64\;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\ranad\AppData\Local\Android\Sdk\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ranad\scoop\shims;C:\Program Files\RSA SecurID Token Common\;C:\Users\ranad\AppData\Roaming\npm;C:\Users\ranad\.dotnet\tools"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\ranad\AppData\Local\Android\Sdk\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\allure-2.13.8\bin;C:\Users\ranad\scoop\shims;C:\Program Files\RSA SecurID Token Common\;C:\Users\ranad\AppData\Roaming\npm;C:\Users\ranad\.dotnet\tools"/>
     <property name="java.io.tmpdir" value="C:\Users\ranad\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\ranad\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Alure-Reporting/18/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Alure-Reporting/27/"/>
     <property name="M2_HOME" value="C:\Program Files\apache-maven-3.6.3"/>
     <property name="=C:" value="C:\Users\ranad"/>
     <property name="ZES_ENABLE_SYSMAN" value="1"/>
@@ -58,7 +58,7 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#18"/>
+    <property name="BUILD_DISPLAY_NAME" value="#27"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="d95ed99e7b354133"/>
@@ -73,18 +73,18 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="18"/>
+    <property name="BUILD_NUMBER" value="27"/>
     <property name="maven3.interceptor" value="C:\Users\ranad\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Seagate\VirtualFile\;C:\Program Files (x86)\Common Files\Seagate\VirtualFile64\;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\ranad\AppData\Local\Android\Sdk\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ranad\scoop\shims;C:\Program Files\RSA SecurID Token Common\;C:\Users\ranad\AppData\Roaming\npm;C:\Users\ranad\.dotnet\tools;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\ranad\AppData\Local\Android\Sdk\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\allure-2.13.8\bin;C:\Users\ranad\scoop\shims;C:\Program Files\RSA SecurID Token Common\;C:\Users\ranad\AppData\Roaming\npm;C:\Users\ranad\.dotnet\tools;."/>
     <property name="HOMEDRIVE" value="C:"/>
     <property name="POM_GROUPID" value="Framework"/>
     <property name="POM_ARTIFACTID" value="AIO"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://localhost:8080/job/Alure-Reporting/"/>
     <property name="OneDrive" value="D:\OneDrive - Campbellsville University"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/18/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/27/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\ranad\.jenkins"/>
-    <property name="BUILD_ID" value="18"/>
+    <property name="BUILD_ID" value="27"/>
     <property name="TEMP" value="C:\Users\ranad\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -96,7 +96,7 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.6.3/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-UOOK2F9"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/18/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/27/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_241"/>
@@ -126,11 +126,13 @@
     <property name="OneDriveConsumer" value="C:\Users\ranad\OneDrive"/>
     <property name="WORKSPACE" value="C:\Users\ranad\.jenkins\workspace\Alure-Reporting"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/18/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Alure-Reporting/27/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="file.separator" value="\"/>
     <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
@@ -147,7 +149,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase name="example1" classname="com.test.Test1" time="0.126">
+  <testcase name="example1" classname="com.test.Test1" time="0.154">
     <failure message="This test should be failed expected [3] but found [2]" type="java.lang.AssertionError">java.lang.AssertionError: This test should be failed expected [3] but found [2]
 	at com.test.Test1.example1(Test1.java:14)
 </failure>
@@ -161,15 +163,15 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="example2" classname="com.test.Test1" time="0.002"/>
+  <testcase name="example2" classname="com.test.Test1" time="0.001"/>
   <testcase name="example3" classname="com.test.Test1" time="0.002"/>
-  <testcase name="example4" classname="com.test.Test1" time="0.002">
+  <testcase name="example4" classname="com.test.Test1" time="0.003">
     <failure message="This test should be failed" type="java.lang.AssertionError">java.lang.AssertionError: This test should be failed
 	at com.test.Test1.example4(Test1.java:29)
 </failure>
   </testcase>
   <testcase name="skippedByDependencyTest" classname="com.test.Test1" time="0">
-    <skipped message="Method Test1.skippedByDependencyTest()[pri:0, instance:com.test.Test1@6622fc65] depends on not successfully finished methods"/>
+    <skipped message="Method Test1.skippedByDependencyTest()[pri:0, instance:com.test.Test1@50ecde95] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="test1" classname="com.test.Test2" time="0.002">
     <failure message="expected [3] but found [2]" type="java.lang.AssertionError">java.lang.AssertionError: expected [3] but found [2]
@@ -177,16 +179,16 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 </failure>
   </testcase>
   <testcase name="test2" classname="com.test.Test2" time="0.002"/>
-  <testcase name="test3" classname="com.test.Test2" time="0.003"/>
+  <testcase name="test3" classname="com.test.Test2" time="0.002"/>
   <testcase name="test4" classname="com.test.Test2" time="0.002">
     <failure message="This test should be failed" type="java.lang.AssertionError">java.lang.AssertionError: This test should be failed
 	at com.test.Test2.test4(Test2.java:29)
 </failure>
   </testcase>
   <testcase name="skippedByDependencyTest" classname="com.test.Test2" time="0">
-    <skipped message="Method Test2.skippedByDependencyTest()[pri:0, instance:com.test.Test2@299321e2] depends on not successfully finished methods"/>
+    <skipped message="Method Test2.skippedByDependencyTest()[pri:0, instance:com.test.Test2@35a9782c] depends on not successfully finished methods"/>
   </testcase>
-  <testcase name="main" classname="com.test.Test3" time="0.014">
+  <testcase name="main" classname="com.test.Test3" time="0.072">
     <failure message="&#10;Cannot inject @Test annotated Method [main] with [class [Ljava.lang.String;].&#10;For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection" type="org.testng.TestNGException">org.testng.TestNGException: 
 
 Cannot inject @Test annotated Method [main] with [class [Ljava.lang.String;].
