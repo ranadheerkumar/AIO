@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -13,6 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebElement;
+import org.w3c.dom.Element;
 
 public class XLUtility {
 
@@ -23,6 +26,7 @@ public class XLUtility {
 	public XSSFRow row;
 	public XSSFCell cell;
 	public CellStyle style;   
+	public Element element;
 	String path;
 	
 	XLUtility(String path)
@@ -101,6 +105,7 @@ public class XLUtility {
 		
 		cell=row.createCell(colnum);
 		cell.setCellValue(data);
+		
 		fo=new FileOutputStream(path);
 		workbook.write(fo);		
 		workbook.close();
@@ -150,5 +155,7 @@ public class XLUtility {
 		fi.close();
 		fo.close();
 	}
+
+	
 	
 }
